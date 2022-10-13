@@ -32,7 +32,7 @@ a.dropdown-item {
   font-size: 40px;
   line-height: 3rem;
   font-weight: 600;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .title h6 {
@@ -40,7 +40,7 @@ a.dropdown-item {
   font-size: 1.3rem;
   line-height: 1rem;
   font-weight: 400;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .about__title p {
@@ -82,7 +82,7 @@ a.dropdown-item {
   color: #189a46;
 }
 
-.features__item .title-head {
+.features__item h4 a {
   font-size: 1.7rem;
   color: white;
   text-decoration: none;
@@ -95,6 +95,7 @@ a.dropdown-item {
   font-size: 1.2em;
   line-height: 1.8rem;
   color: #afafaf;
+  margin-top: 1rem;
 }
 
 .features__item:hover {
@@ -111,11 +112,14 @@ a.dropdown-item {
 }
 .services .services__text {
   align-self: center;
+  padding-top: 2rem;
 }
 
 .services__text p {
   font-size: 1rem;
   margin: 15px 0 35px 0;
+  color: #afafaf;
+  list-style: 2rem;
 }
 
 .services .img-fluid {
