@@ -11,7 +11,6 @@
 /* main  */
 a.dropdown-item {
   color: #ddd;
-
 }
 
 .dropdown-menu {
@@ -28,14 +27,14 @@ a.dropdown-item {
   background-color: black;
 }
 
-.about__title h3 {
+.title h3 {
   color: white;
   font-size: 40px;
   line-height: 3rem;
   font-weight: 600;
 }
 
-.about__title h6 {
+.title h6 {
   color: #f53626;
   font-size: 1rem;
   line-height: 1rem;
@@ -102,4 +101,42 @@ a.dropdown-item {
 
 .features__item h4 a:hover {
   color: #189a46;
+}
+
+/* Services */
+.services {
+  background-color: black;
+}
+.services .services__text {
+  align-self: center;
+}
+
+.services__text p {
+  font-size: 1rem;
+  margin: 15px 0 35px 0;
+}
+
+.services .img-fluid {
+  border-radius: 10px;
+}
+
+.services__text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services__text ul li {
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.services__text ul li span {
+  color: #189a46;
+  margin-right: 0.5rem;
+  background: #222;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  padding: 8px;
 }
