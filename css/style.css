@@ -147,6 +147,11 @@ a.dropdown-item {
   padding: 8px;
 }
 
+/* Video */
+.middle-section .mt-3 {
+  color: #afafaf;
+}
+
 /* Testimonials */
 #clients {
   background-color: #222;
@@ -251,7 +256,7 @@ a.dropdown-item {
   margin: 5px 2px;
   background: #d8d8d8;
   display: block;
-  -webkit-backface-visibility: visible;
+  /* -webkit-backface-visibility: visible; */
   transition: opacity 0.2s ease;
   border-radius: 25px;
   position: relative;
