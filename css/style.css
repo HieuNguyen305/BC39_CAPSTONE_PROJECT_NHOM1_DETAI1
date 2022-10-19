@@ -295,3 +295,8 @@ blockquote q::before {
     display: none;
   }
 }
+
+/* Bottom */
+.bottom {
+  background-color: #151515;
+}
