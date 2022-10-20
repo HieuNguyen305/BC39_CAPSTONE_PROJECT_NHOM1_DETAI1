@@ -424,6 +424,8 @@ blockquote q::before {
   text-decoration: underline;
   opacity: 0.8;
 }
+
+/* UptoTop */
 #movetop {
   display: none;
   position: fixed;
@@ -442,4 +444,9 @@ blockquote q::before {
   line-height: 36px;
   border-radius: 50px;
   transition: 0.3s ease-out;
+}
+
+#movetop:hover {
+  transform: translateY(-10px);
+  transition: .3s ease-out;
 }
